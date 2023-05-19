@@ -8,7 +8,7 @@ const InstaStories = () => {
   return (
     <ScrollView horizontal showsHorizontalScrollIndicator={false}>
       {user.map((data, index) => (
-        <View key={index} style={{ width: 100, flex: 1, alignItems: "center" }}>
+        <View key={index} style={style.InstaCol}>
           <LinearGradient
             colors={["#A459D1", "#E57C23", "#E76161"]}
             style={{ padding: 2, borderRadius: 50 }}
@@ -38,6 +38,11 @@ const style = StyleSheet.create({
   },
   instaText: {
     textTransform: "lowercase",
+  },
+  InstaCol: {
+    width: 85,
+    flex: 1,
+    alignItems: "center",
   },
 });
 export default InstaStories;
