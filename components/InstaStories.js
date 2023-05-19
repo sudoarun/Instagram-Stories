@@ -10,8 +10,8 @@ const InstaStories = () => {
       {user.map((data, index) => (
         <View key={index} style={{ width: 100, flex: 1, alignItems: "center" }}>
           <LinearGradient
-            colors={["#4c669f", "#3b5998", "#192f6a"]}
-            style={{ padding: 3, borderRadius: 50 }}
+            colors={["#A459D1", "#E57C23", "#E76161"]}
+            style={{ padding: 2, borderRadius: 50 }}
           >
             <Image
               source={{
@@ -21,7 +21,7 @@ const InstaStories = () => {
             />
           </LinearGradient>
 
-          <Text>{data.name}</Text>
+          <Text style={style.instaText}>{data.name}</Text>
         </View>
       ))}
     </ScrollView>
@@ -32,6 +32,12 @@ const style = StyleSheet.create({
     height: 70,
     width: 70,
     borderRadius: 50,
+    borderWidth: 4,
+    backgroundColor: "white",
+    borderColor: "white",
+  },
+  instaText: {
+    textTransform: "lowercase",
   },
 });
 export default InstaStories;
