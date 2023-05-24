@@ -9,12 +9,14 @@ import {
 } from "react-native";
 import user from "../user.json";
 
-const InstaStories = ({ toggleModal }) => {
+const InstaStories = ({ toggleModal, setVideoUrl }) => {
   return (
     <ScrollView horizontal showsHorizontalScrollIndicator={false}>
       {user.map((data, index) => (
         <View key={index} style={style.InstaCol}>
-          <TouchableOpacity onPress={toggleModal}>
+          <TouchableOpacity
+            onPress={() => toggleModal() || setVideoUrl(data.video)}
+          >
             <LinearGradient
               colors={["#A459D1", "#E57C23", "#E76161"]}
               style={{ padding: 2, borderRadius: 50 }}

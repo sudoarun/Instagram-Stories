@@ -1,15 +1,16 @@
 import { React } from "react";
-import { Button, View } from "react-native";
+import { Button, View, Text } from "react-native";
 import Modal from "react-native-modal";
 // import { Video, ResizeMode } from "expo-av";
 
-const StoryModal = ({ isModalVisible, toggleModal }) => {
-  console.log(isModalVisible);
+const StoryModal = ({ isModalVisible, toggleModal, videoUrl }) => {
+  console.log(videoUrl);
   return (
     <>
       <View>
         <Modal isVisible={isModalVisible}>
           <View style={{ flex: 1 }}>
+            <Text>{videoUrl}</Text>
             {/* <Video
               style={styles.video}
               source={{

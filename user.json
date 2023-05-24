@@ -1,26 +1,32 @@
 [
-    {
-      "name": "User 1",
-      "img": "https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc="
-    },
-    {
-      "name": "User 2",
-      "img": "https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-260nw-1714666150.jpg"
-    },
-    {
-      "name": "User 3",
-      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-    },
-    {
-      "name": "User 4",
-      "img": "https://us.123rf.com/450wm/lacheev/lacheev2109/lacheev210900016/173818773-portrait-of-happy-clever-intelligent-young-man-in-glasses-looking-at-camera-and-smiling-headshot-of.jpg?ver=6"
-    },
-    {
-      "name": "User 5",
-      "img": "https://us.123rf.com/450wm/stockbroker/stockbroker1507/stockbroker150707030/42314850-portrait-of-young-man-standing-outdoors-against-white-wall.jpg?ver=6"
-    },
-    {
-      "name": "User 6",
-      "img": "https://us.123rf.com/450wm/hasloo/hasloo1404/hasloo140401368/27776497-portrait-of-young-fashionable-man-leaning-on-white-wall-and-wearing-glasses-he-is-trendy.jpg"
-    }
-  ]
+  {
+    "name": "User 1",
+    "img": "https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=",
+    "video": "https://player.vimeo.com/external/527819240.sd.mp4?s=ee545f9c1847f9502ec57410ade26c5a34f0081c&profile_id=165&oauth2_token_id=57447761"
+  },
+  {
+    "name": "User 2",
+    "img": "https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-260nw-1714666150.jpg",
+    "video": "https://player.vimeo.com/external/563406406.sd.mp4?s=5748bf87b10b6df7d0208e84e03a2b8436886820&profile_id=164&oauth2_token_id=57447761"
+  },
+  {
+    "name": "User 3",
+    "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "video": "https://player.vimeo.com/external/577087855.sd.mp4?s=804a27a0d55f0c22a3a2d589de3455d9928b983c&profile_id=165&oauth2_token_id=57447761"
+  },
+  {
+    "name": "User 4",
+    "img": "https://us.123rf.com/450wm/lacheev/lacheev2109/lacheev210900016/173818773-portrait-of-happy-clever-intelligent-young-man-in-glasses-looking-at-camera-and-smiling-headshot-of.jpg?ver=6",
+    "video": "https://player.vimeo.com/external/563335257.sd.mp4?s=4fd9819219d959c5815a031409d777af7c9e5fa0&profile_id=165&oauth2_token_id=57447761"
+  },
+  {
+    "name": "User 5",
+    "img": "https://us.123rf.com/450wm/stockbroker/stockbroker1507/stockbroker150707030/42314850-portrait-of-young-man-standing-outdoors-against-white-wall.jpg?ver=6",
+    "video": "https://player.vimeo.com/external/522010190.sd.mp4?s=d02d19849b692de8cbf19027a1cead9162041ce2&profile_id=164&oauth2_token_id=57447761"
+  },
+  {
+    "name": "User 6",
+    "img": "https://us.123rf.com/450wm/hasloo/hasloo1404/hasloo140401368/27776497-portrait-of-young-fashionable-man-leaning-on-white-wall-and-wearing-glasses-he-is-trendy.jpg",
+    "video": "https://player.vimeo.com/external/393779957.sd.mp4?s=c987440649ec00c1d16d8f025e665ec265716829&profile_id=164&oauth2_token_id=57447761"
+  }
+]
