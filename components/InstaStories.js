@@ -1,23 +1,32 @@
 import { LinearGradient } from "expo-linear-gradient";
-import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
+import {
+  Image,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import user from "../user.json";
 
-const InstaStories = () => {
+const InstaStories = ({ toggleModal }) => {
   return (
     <ScrollView horizontal showsHorizontalScrollIndicator={false}>
       {user.map((data, index) => (
         <View key={index} style={style.InstaCol}>
-          <LinearGradient
-            colors={["#A459D1", "#E57C23", "#E76161"]}
-            style={{ padding: 2, borderRadius: 50 }}
-          >
-            <Image
-              source={{
-                uri: data.img,
-              }}
-              style={style.img}
-            />
-          </LinearGradient>
+          <TouchableOpacity onPress={toggleModal}>
+            <LinearGradient
+              colors={["#A459D1", "#E57C23", "#E76161"]}
+              style={{ padding: 2, borderRadius: 50 }}
+            >
+              <Image
+                source={{
+                  uri: data.img,
+                }}
+                style={style.img}
+              />
+            </LinearGradient>
+          </TouchableOpacity>
 
           <Text style={style.instaText}>{data.name}</Text>
         </View>
