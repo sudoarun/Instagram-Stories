@@ -1,5 +1,3 @@
-import * as react from "react";
-// import { Text, View } from "react-native-paper";
 import { LinearGradient } from "expo-linear-gradient";
 import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
 import user from "../user.json";
