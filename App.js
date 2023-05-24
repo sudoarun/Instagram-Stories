@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View } from "react-native";
 import InstaStories from "./components/InstaStories";
 import StoryModal from "./components/StoryModal";
 import { useState } from "react";
