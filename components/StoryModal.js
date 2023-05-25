@@ -1,7 +1,7 @@
 import { React } from "react";
 import { Button, View, Text } from "react-native";
 import Modal from "react-native-modal";
-import { Video, ResizeMode } from "expo-av";
+import { Video } from "expo-av";
 
 const StoryModal = ({ isModalVisible, toggleModal, videoUrl }) => {
   //   console.log(videoUrl);
@@ -10,18 +10,16 @@ const StoryModal = ({ isModalVisible, toggleModal, videoUrl }) => {
       <View>
         <Modal isVisible={isModalVisible}>
           <View style={{ flex: 1 }}>
+            <Button title="Hide modal" onPress={toggleModal} />
             {/* <Text>{videoUrl}</Text> */}
             <Video
-              style={{ width: "100%", height: 700, marginBottom: 10 }}
+              style={{ width: "100%", height: 700, marginTop: 10 }}
               source={{
                 uri: videoUrl,
               }}
-              resizeMode={ResizeMode.STRETCH}
               isLooping
               shouldPlay
             />
-
-            <Button title="Hide modal" onPress={toggleModal} />
           </View>
         </Modal>
       </View>

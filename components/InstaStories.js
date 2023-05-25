@@ -30,7 +30,7 @@ const InstaStories = ({ toggleModal, setVideoUrl }) => {
             </LinearGradient>
           </TouchableOpacity>
 
-          <Text style={style.instaText}>{data.name}</Text>
+          <Text>{data.name}</Text>
         </View>
       ))}
     </ScrollView>
@@ -44,9 +44,6 @@ const style = StyleSheet.create({
     borderWidth: 4,
     backgroundColor: "white",
     borderColor: "white",
-  },
-  instaText: {
-    textTransform: "lowercase",
   },
   InstaCol: {
     width: 85,
